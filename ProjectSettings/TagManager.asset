@@ -40,7 +40,7 @@ TagManager:
   m_SortingLayers:
   - name: Background
     uniqueID: 3994523015
-    locked: 0
+    locked: 1
   - name: FieldOfPlay
     uniqueID: 2266941219
     locked: 0
