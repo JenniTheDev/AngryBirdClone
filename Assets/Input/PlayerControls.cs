@@ -1,4 +1,4 @@
-// GENERATED AUTOMATICALLY FROM 'Assets/InputSystem/PlayerControls.inputactions'
+// GENERATED AUTOMATICALLY FROM 'Assets/Input/PlayerControls.inputactions'
 
 using System;
 using System.Collections;
@@ -51,7 +51,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""name"": """",
                     ""id"": ""1e165a32-3719-49ae-b9a3-35bd728e4fa3"",
                     ""path"": ""<Mouse>/leftButton"",
-                    ""interactions"": """",
+                    ""interactions"": ""Press(behavior=2)"",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Fire"",
