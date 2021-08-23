@@ -292,6 +292,7 @@ GameObject:
   - component: {fileID: 729826602}
   - component: {fileID: 729826603}
   - component: {fileID: 729826604}
+  - component: {fileID: 729826605}
   m_Layer: 0
   m_Name: Anchor
   m_TagString: Untagged
@@ -345,6 +346,19 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
+--- !u!114 &729826605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729826601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 147520b65b1a7ba42b49543363af26df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPosition: {fileID: 729826602}
 --- !u!1 &972702932
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,7 +374,6 @@ GameObject:
   - component: {fileID: 972702937}
   - component: {fileID: 972702938}
   - component: {fileID: 972702939}
-  - component: {fileID: 972702940}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -513,19 +526,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39c95b323f12cc84ca2c0bb805209f94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &972702940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 972702932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 147520b65b1a7ba42b49543363af26df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startPosition: {fileID: 729826602}
 --- !u!1 &1606296328
 GameObject:
   m_ObjectHideFlags: 0

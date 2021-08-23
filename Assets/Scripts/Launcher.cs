@@ -15,7 +15,7 @@ public class Launcher : MonoBehaviour {
         inputClick = input.Player.Fire;
         inputClick.Enable();
         // inputClick.started += record value of mouse until performed = power of launcher = velocity
-        // start - end
+        // startposition - release position
         // on click method, on input release
 
         inputClick.started += OnInputClick;
