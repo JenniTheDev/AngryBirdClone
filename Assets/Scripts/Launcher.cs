@@ -33,7 +33,7 @@ public class Launcher : MonoBehaviour {
     }
 
     private void OnInputClick(InputAction.CallbackContext ctx) {
-        Debug.Log($"Mouse clicked at position: {releasePosition}");
+        Debug.Log($"Mouse clicked at position: {inputMovement.ReadValue<Vector2>()}");
         rb.isKinematic = true;
     }
 
