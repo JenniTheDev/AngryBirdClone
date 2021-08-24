@@ -308,7 +308,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 729826601}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7, y: 0, z: 0}
+  m_LocalPosition: {x: -5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -359,6 +359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPosition: {fileID: 729826602}
+  rb: {fileID: 972702936}
 --- !u!1 &972702932
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,7 +457,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 972702932}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7, y: 0, z: 0}
+  m_LocalPosition: {x: -5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -512,8 +513,8 @@ SpringJoint2D:
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
   m_Distance: 0.005
-  m_DampingRatio: 0
-  m_Frequency: 1
+  m_DampingRatio: 0.5
+  m_Frequency: 0.5
 --- !u!114 &972702939
 MonoBehaviour:
   m_ObjectHideFlags: 0

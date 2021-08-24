@@ -5,7 +5,9 @@ public class Launcher : MonoBehaviour {
     private InputAction inputMovement;
     private InputAction inputClick;
     [SerializeField] private Transform startPosition;
-    private Transform releasePosition;
+
+    [SerializeField] private Rigidbody2D rb;
+    private Vector2 releasePosition;
 
     private void Start() {
         var input = new PlayerControls();
@@ -20,13 +22,22 @@ public class Launcher : MonoBehaviour {
 
         inputClick.started += OnInputClick;
         inputClick.canceled += OnInputRelease;
+        inputClick.performed += OnInputHold;
     }
 
     private void OnInputRelease(InputAction.CallbackContext ctx) {
-        Debug.Log($"Mouse click released at position: {inputMovement.ReadValue<Vector2>()}");
+        releasePosition = inputMovement.ReadValue<Vector2>();
+        Debug.Log($"Mouse click released at position: {releasePosition}");
+        rb.position = releasePosition;
+        rb.isKinematic = false;
     }
 
     private void OnInputClick(InputAction.CallbackContext ctx) {
-        Debug.Log($"Mouse clicked at position: {inputMovement.ReadValue<Vector2>()}");
+        Debug.Log($"Mouse clicked at position: {releasePosition}");
+        rb.isKinematic = true;
+    }
+
+    private void OnInputHold(InputAction.CallbackContext ctx) {
+        rb.position = Camera.main.ScreenToWorldPoint(inputMovement.ReadValue<Vector2>());
     }
 }
