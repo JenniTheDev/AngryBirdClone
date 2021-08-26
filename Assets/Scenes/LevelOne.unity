@@ -293,6 +293,7 @@ GameObject:
   - component: {fileID: 729826603}
   - component: {fileID: 729826604}
   - component: {fileID: 729826605}
+  - component: {fileID: 729826606}
   m_Layer: 0
   m_Name: Anchor
   m_TagString: Untagged
@@ -360,6 +361,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPosition: {fileID: 729826602}
   rb: {fileID: 972702936}
+  releaseTime: 0.15
+--- !u!231 &729826606
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729826601}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 972702936}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.005
+  m_DampingRatio: 0
+  m_Frequency: 2
 --- !u!1 &972702932
 GameObject:
   m_ObjectHideFlags: 0
@@ -373,7 +395,6 @@ GameObject:
   - component: {fileID: 972702936}
   - component: {fileID: 972702933}
   - component: {fileID: 972702937}
-  - component: {fileID: 972702938}
   - component: {fileID: 972702939}
   m_Layer: 0
   m_Name: Ball
@@ -495,26 +516,6 @@ SortingGroup:
   m_SortingLayerID: -2028026077
   m_SortingLayer: -1
   m_SortingOrder: 10
---- !u!231 &972702938
-SpringJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 972702932}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 729826603}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0, y: 0}
-  m_AutoConfigureDistance: 1
-  m_Distance: 0.005
-  m_DampingRatio: 0.5
-  m_Frequency: 0.5
 --- !u!114 &972702939
 MonoBehaviour:
   m_ObjectHideFlags: 0
