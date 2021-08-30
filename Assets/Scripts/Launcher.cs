@@ -55,6 +55,7 @@ public class Launcher : MonoBehaviour {
     }
 
     private void OnInputHold(InputAction.CallbackContext ctx) {
+        // This doesn't work the entire time mouse is being held down
         // rb.position = Camera.main.ScreenToWorldPoint(inputMovement.ReadValue<Vector2>());
         //  Debug.Log($"Mouse being held down: {inputMovement.ReadValue<Vector2>()}");
     }
