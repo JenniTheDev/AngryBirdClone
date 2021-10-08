@@ -28,6 +28,8 @@ Once you have made all your changes, make sure everything is [pushed](https://su
  
 This project uses Unity version 2020.2.3f1, and you should do the same. 
   
+To make things easier for me to maintain, and for everyone to get their PRs approved, please make a scene for yourself. Do all of your work and changes in it. Make [prefabs](https://docs.unity3d.com/Manual/CreatingPrefabs.html) of the objects you make so others can use it, and use other prefabs in your scene. 
+  
 To learn more Unity skills, check out [Unity Learn](https://learn.unity.com/), [Code Monkey](https://unitycodemonkey.com/), and [Bracky's](https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA) for a good spot to start. Googling things is a good skill for every dev to learn. 
 <br><br>
   
