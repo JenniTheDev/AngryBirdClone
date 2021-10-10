@@ -9,12 +9,11 @@ Thanks for helping on this project. Everyone at any level is welcome to contribu
  * [Coding Conventions](#cc)
  * [Questions?](#questions)
   
-  <br><br>
-    
+  <br><br>  
 ## Introduction <a name="Introduction"></a> <br>
   
 I know it's a little nerve racking to make your first contribution to Open Source. You'll be fine! 
-    
+  <br><br>    
 ## Using Github <a name="github"></a> <br>
 
 DO NOT TRY TO PUSH DIRECTLY TO MAIN! 
@@ -26,7 +25,7 @@ Once you have made all your changes, make sure everything is [pushed](https://su
   
 ## Using Unity <a name="unity"></a> <br>
  
-This project uses Unity version 2020.2.3f1, and you should do the same. 
+This project uses Unity version 2020.2.3f1, and you should do the same. The [Unity Hub](https://docs.unity3d.com/2018.3/Documentation/Manual/GettingStartedInstallingHub.html) is good to have if you don't. 
   
 To make things easier for me to maintain, and for everyone to get their PRs approved, please make a scene for yourself. Do all of your work and changes in it. Make [prefabs](https://docs.unity3d.com/Manual/CreatingPrefabs.html) of the objects you make so others can use it, and use other prefabs in your scene. 
   
