@@ -20,7 +20,7 @@ public class BallSpawner : MonoBehaviour {
     private void Update() {
     }
 
-    private void OnTriggerEnter2D(Collider2D collision) {
+    private void SpawnNewBird() {
         levelNum++;
         StartCoroutine(SpawnTimer());
     }
