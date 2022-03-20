@@ -33,7 +33,7 @@ To learn more Unity skills, check out [Unity Learn](https://learn.unity.com/), [
 <br><br>
   
  ## Coding Conventions <a name="cc"></a> <br>
- It's good to get into the habit of following any Technical Design Document. Please follow the [C# Coding Conventions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions) as best as you can. Also, try not to make everything public, it's a really bad habit to have. Use [Serialize Field] to expose variables to the editor.  
+ It's good to get into the habit of following any Technical Design Document. Please follow the [C# Coding Conventions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions) as best as you can. Also, try not to make everything public, it's a really bad habit to have. Use [SerializeField] to expose variables to the editor.  
  <br><br>
   
  ## Questions? <a name="questions"></a> <br> 
